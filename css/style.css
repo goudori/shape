@@ -1,0 +1,44 @@
+/* 図形の種類 */
+.container {
+    display: flex;
+  justify-content: center;
+
+}
+
+/* 四角形 */
+.quadrangle {
+    height: 100px;
+    width: 100px;
+    background-color: #ffa500;
+    position: relative;
+    left: 0;
+    transition: 2s;
+    margin-right: 50px;
+}
+
+/* 長方形 */
+.rectangle {
+    height: 300px;
+    width: 100px;
+    background-color: #0073ff;
+    right: 0;
+    transition: 2s;
+    margin-right: 50px;
+}
+/* 円 */
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #ff0099;
+    border-radius: 50%;
+    transition: 2s;
+    margin-right: 50px;
+
+}
+/* ボタン */
+.shapes_btn {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+
+}
